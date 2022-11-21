@@ -8,7 +8,7 @@ _website design project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://github.com/thsaris/02-UFO
+Site published at: https://github.com/thsaris/03-happy-weekend
 
 Design: [Happy-Weekend](./designs/happy-weekend.png)
 
