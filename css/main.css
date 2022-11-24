@@ -19,7 +19,7 @@
             margin-top: 3.8px;
         }
 
-        .main-nav > a {
+        .link {
             display: inline-block;
             padding: 0.3em;
             padding-left: 0.7em;
@@ -34,16 +34,16 @@
             border-radius: 0.2em;
         }
 
-        .main-nav > a:first-child {
+        .link:first-child {
             margin-left: 0;
         }
 
-        .main-nav > a:hover {
+        .link:hover {
             text-decoration: underline;
             color: #3F4371;
         }
 
-        main {
+        .main-content {
             display: inline-block;
             width: 800px;
             margin-top: 100px;
@@ -72,7 +72,7 @@
             word-spacing: 0.3em;
         }
 
-        .left-column > .button {
+        .button {
             display: inline-block;
             padding: 0.5em;
             padding-left: 3em;
@@ -87,15 +87,28 @@
             box-shadow: 0px 0.5em 0.2em -0.45em #888;
             transition: all 1s;
         }
-        .left-column > .button:hover {
+        .button:hover {
             box-shadow: 0px 0.6em 0.2em -0.45em #555;
         }
 
-        .left-column > .socials {
+        .socials {
             margin-top:  50px;
         }
 
-        .left-column > .socials > .button {}
+        .icon {
+            width: 2em;
+            height: 2em;
+            float: left;
+            margin-right: 0.5em;
+            margin-bottom: 0.5em;
+            text-decoration: none;
+            font-size: 20px;
+            line-height: 2em;
+            text-align: center;
+            background-color: #3F4371;
+            color: #fff;
+            border-radius: 50%;
+        }
 
         .right-column {
             width: 65%;
